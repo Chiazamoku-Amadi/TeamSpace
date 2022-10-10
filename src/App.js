@@ -7,8 +7,9 @@ import FreelancersCanvas from "./assets/freelancers-canvas.png";
 import GraphChart24 from "./assets/graph-chart24m.png";
 import GraphChart80 from "./assets/graph-chart80m+.png";
 import ProfilePictures from "./assets/profile-pictures.png";
-import { HiChevronLeft } from "react-icons/hi";
-import { HiChevronRight } from "react-icons/hi";
+import JobListing from "./Components/JobListing/JobListing";
+// import { HiChevronLeft } from "react-icons/hi";
+// import { HiChevronRight } from "react-icons/hi";
 
 function App() {
   return (
@@ -37,12 +38,10 @@ function App() {
           <img src={GraphChart80} alt="" className="graph-chart80" />
         </div>
       </header>
-      <section>
+      <section className="job-listing-section">
         <h2>Job Listing</h2>
-        <div>
-          <HiChevronLeft />
-          <HiChevronRight />
-        </div>
+        <JobListing />
+        <button className="load-more-btn">Load More Jobs</button>
       </section>
     </div>
   );

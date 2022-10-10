@@ -108,3 +108,23 @@
   width: 80%;
   height: 90px;
 }
+
+.job-listing-section {
+  padding: 3em 6em;
+}
+
+.job-listing-section > h2 {
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+.load-more-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #cd87fe;
+  border-radius: 30px;
+  padding: 0.8em 1.2em;
+  margin: 2em 0;
+}
